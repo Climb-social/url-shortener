@@ -1,0 +1,30 @@
+{
+  "name": "100shapes-urls",
+  "version": "1.0.0",
+  "description": "A system to maintain a list of 100 shapes campaigns, shorten, 'campaignerise' and modify URLs to/from the new short form 100s.co",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100Shapes/100shapes-urls.git"
+  },
+  "keywords": [
+    "node",
+    "URL"
+  ],
+  "author": "paolo@100shapes.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100Shapes/100shapes-urls/issues"
+  },
+  "homepage": "https://github.com/100Shapes/100shapes-urls#readme",
+  "dependencies": {
+    "firebase": "^2.2.9",
+    "hapi": "^9.0.3",
+    "inert": "^3.0.1",
+    "joi": "^6.6.1"
+  }
+}
